@@ -18,6 +18,7 @@
 			<p>EMail Id : {{user.emailId}}</p>
 			<p>User Name : {{user.userName}}</p>
 		</div>
-		<a href="http://localhost:9090/spring-security-helloworld-xml/index">example</a> 
+		<a href="http://localhost:9090/spring-security-helloworld-xml/index">example</a>
+		<a href="http://localhost:9090/spring-security-helloworld-xml/sample">sample</a> 
 	</body>
 </html>

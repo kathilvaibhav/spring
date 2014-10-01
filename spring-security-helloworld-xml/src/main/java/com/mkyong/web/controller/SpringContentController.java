@@ -43,5 +43,14 @@ public class SpringContentController {
  
 	}
 	
+	@RequestMapping(value = "/sample", method = RequestMethod.GET)
+        public ModelAndView sampleAppPage() {
+ 
+                ModelAndView model = new ModelAndView();                
+                model.setViewName("sample");
+ 
+                return model;
+ 
+        }
 		
 }
